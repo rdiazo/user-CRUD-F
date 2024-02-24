@@ -9,8 +9,8 @@ function App() {
 
   const [userUpdate, setUserUpdate] = useState()
   const [isFormClose, setIsFormClose] = useState(true)
-
-  const baseUrl = 'https://users-crud.academlo.tech'
+  
+  const baseUrl = 'https://user-crud-b.onrender.com'
   const [users, getUsers, createUser, deleteUser, updateUser] = useFetch(baseUrl)
 
   useEffect(() => {
